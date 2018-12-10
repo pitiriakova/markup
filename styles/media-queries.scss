@@ -1,0 +1,80 @@
+@import 'app-header.mixin';
+
+@media only screen and (max-width: 760px) {
+  @include responsive-header();
+
+  .content, .main, .content__items {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+    &--launch {
+      margin-bottom: 20px;
+    }
+  }
+  .products__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+
+    &__title {
+      margin: 0;
+    }
+  }
+
+  .product {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1366px) {
+  @include responsive-header();
+  body {
+    font-size: 1.2rem;
+  }
+
+  .content, .main, .content__items {
+    display: block;
+    text-align: center
+  }
+
+  .content {
+    &__image {
+      max-width: 90%;
+    }
+
+    &__items {
+      text-align: center;
+    }
+
+    &__item {
+      text-align: center;
+      margin: 20px auto;
+    }
+  }
+
+  .logo, .links {
+    flex: 1;
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .menu {
+    flex: 4;
+
+    &__item {
+      font-size: 3rem;
+    }
+  }
+
+  .search-input {
+    padding: 2rem;
+  }
+}

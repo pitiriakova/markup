@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer"/>
+    <title>Markup</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+
+<header class="app-header">
+    <img class="logo" src="./logo.svg" alt="logo">
+        <nav class="menu">
+            <a class="menu__item dropdown"> Products </a>
+            <a class="menu__item"> Download </a>
+            <a class="menu__item"> Buy </a>
+            <a class="menu__item"> Support </a>
+            <a class="menu__item"> Docs </a>
+            <a class="menu__item"> Resources </a>
+        </nav>
+        <div class="links">
+            <div class="search-input">
+                <i class="links__search fas fa-search"></i>
+                <input type="text"/>
+            </div>
+            <i class="links__share fas fa-share-alt"></i>
+        </div>
+</header>
+
+<main class="main">
+    <section class="content products">
+        <header class="products__header">
+            <h1 class="products__title">Products</h1>
+            <hr class="products__separator"/>
+        </header>
+        <section class="content__items product">
+            <article class="content__item">
+                <h2 class="product__header">JavaScript Charts</h2>
+                <div class="content__item product__item">
+                    <div class="product__body">
+                        <div>
+                            <img src="./image.svg" alt="image" class="content__image">
+                        </div>
+                        <div class="product__description">
+                            <h4 class="product__text--bold">
+                                Jazz up your website or application with awesome-looking interactive charts.
+                            </h4>
+                            <p class="product__text">
+                                Add classic charts like Line, Area, Column, Bar, Pie, XY, Scatter, Candelstick and
+                                OHLCwell as
+                                more
+                                "exotic" ones like Gauges, Funnels, GANTT.
+                            </p>
+                            <div>
+                                <button class="btn btn--learn-more">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="content__item">
+                <h2 class="product__header">JavaScript Chart</h2>
+                <div class="content__item product__item">
+                    <div class="product__body">
+                        <div>
+                            <img src="./image.svg" alt="image" class="content__image">
+                        </div>
+                        <div class="product__description">
+                            <h4 class="product__text--bold">
+                                Display large amount of financial and other date-based data.
+                            </h4>
+                            <p class="product__text">
+                                Adaptively visualize your data. Enhance UX by making use of such awesome advanced
+                                features as
+                                adaptive
+                                data granularity, multiple synced panels, data set comparison and many more.
+                            </p>
+                            <div>
+                                <button class="btn btn--learn-more">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="content__item">
+                <h2 class="product__header">JavaScript Maps</h2>
+                <div class="content__item product__item">
+                    <div class="product__body">
+                        <div class="product__description">
+                            <div>
+                                <img src="./image.svg" alt="image" class="content__image">
+                            </div>
+                            <h4 class="product__text--bold">
+                                Add fully interactive adaptive world or local country maps to your websites and
+                                applications.
+                            </h4>
+                            <p class="product__text">
+                                With just a few lines of code add a simple, out-of-the-box beautiful map. Enhance it
+                                with
+                                animations,
+                                icons, media-rich descriptions, drill-down functionality or other features.
+                            </p>
+                            <div>
+                                <button class="btn btn--learn-more">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <section class="content tools">
+        <h1 class="content__title">On-Line Tools</h1>
+        <section class="content__items tool">
+            <article class="content__item">
+                <div class="tool__description">
+                    <img class="content__image" src="./image.svg" alt="image">
+                    <h2 class="content__header">Live Editor</h2>
+                    <p class="content__description--bold">
+                        Create charts online.
+                    </p>
+                    <p class="content__description">
+                        Choose from tens of pre-defined templates. Import your data.
+                        Change any configuration property using intuitive user interface.
+                        Publish or embed them. Without writing a single line of code.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">Launch Live Editor</button>
+                </div>
+            </article>
+            <article class="content__item tool__item">
+                <div class="tool__description">
+                    <img src="./image.svg" alt="image" class="content__image">
+                    <h2 class="content__header">Pixel Map Generator</h2>
+                    <p class="content__description--bold">
+                        Create beautiful interactive maps.
+                    </p>
+                    <p class="content__description">
+                        Use a very simple-to-use interface to create eye-capturing maps.
+                        Export them as image or config for JavaScript maps.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">Launch Pixel Map Generator</button>
+                </div>
+            </article>
+            <article class="content__item tool__item">
+                <div class="tool__description">
+                    <img src="./image.svg" alt="image" class="content__image">
+                    <h2 class="content__header">Visited Countries & States Map</h2>
+                    <p class="content__description--bold">
+                        Quickly create maps of places you've been to.
+                    </p>
+                    <p class="content__description">
+                        Easy interface lets you select countries or U.S. states you have visited,
+                        then share them by link, Facebook, Twitter or embed into your website.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">Countries</button>
+                    <button class="btn btn--launch">US States</button>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <section class="content plugins">
+        <h1 class="content__title">Plugins & Add-Ons</h1>
+        <section class="content__items plugin">
+            <article class="content__item plugin__item">
+                <div class="content__description">
+                    <i class="far fa-map content__icon"></i>
+                    <h2 class="content__header">Plugin For Charts And Maps</h2>
+                    <p class="plugin__item-description">
+                        Enhance your charts and maps with a number of plugins developed by amCharts team.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">List available plugins</button>
+                </div>
+            </article>
+            <article class="content__item plugin__item">
+                <div class="content__description">
+                    <i class="fas fa-globe-americas content__icon"></i>
+                    <h2 class="content__header">Map Packs</h2>
+                    <p class="content__description">
+                        Additional map packs are available for all buyers of JavaScript maps license.
+                        Get country maps for states of the U.S., Canada and Mexico as well as
+                        numerous versions of continental and regional maps.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">Premium Maps</button>
+                    <button class="btn btn--launch">Country Maps</button>
+                </div>
+            </article>
+            <article class="content__item plugin__item">
+                <div class="content__description">
+                    <i class="fab fa-wordpress content__icon"></i>
+                    <h2 class="content__header">WordPress Plugin</h2>
+                    <p class="content__description">
+                        Constantly updated and supported plugin for the most popular web publishing system.
+                        Easily ember charts and maps into your WP posts and pages.
+                    </p>
+                </div>
+
+                <div>
+                    <button class="btn btn--launch">Visit on WordPress.org</button>
+                </div>
+            </article>
+        </section>
+    </section>
+
+
+    <section class="content frameworks">
+        <h1 class="content__title">Implementations, Wrappers & Framework Components</h1>
+        <section class="content__items framework">
+            <article class="content__item framework__item">
+                <div class="content__description">
+                    <i class="far fa-map content__icon"></i>
+                    <h2 class="content__header">React Component</h2>
+                    <p class="framework__item-description">
+                        Use amCharts product on React framework with our official component.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">More info and downloads on GitHub</button>
+                </div>
+            </article>
+            <article class="content__item framework__item">
+                <div class="content__description">
+                    <i class="far fa-map content__icon"></i>
+                    <h2 class="content__header">Angular2 Directive</h2>
+                    <p class="content__description">
+                        For Angular2 users, our official Directive is available
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn--launch">More info and downloads on GitHub</button>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <section class="content information">
+        <div class="column">
+            <ul class="info">
+                <li class="info__item"><img src="./logo.svg" alt="logo" class="logo--big-size"></li>
+            </ul>
+        </div>
+        <div class="column">
+            <header class="column__header">More Info</header>
+            <ul class="info">
+                <li class="info__item"><a>Release Announcements</a></li>
+                <li class="info__item"><a>Accessibility Features</a></li>
+                <li class="info__item"><a>About amCharts</a></li>
+                <li class="info__item"><a>Press Kit</a></li>
+                <li class="info__item"><a>AmCharts Blog</a></li>
+                <li class="info__item"><a>New in Knowledge Base</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <header class="column__header">Products</header>
+            <ul class="info">
+                <li class="info__item"><a>JavaScript Charts</a></li>
+                <li class="info__item"><a>JavaScript Stock</a></li>
+                <li class="info__item"><a>JavaScript Maps</a></li>
+                <li class="info__item"><a>Plugins</a></li>
+                <li class="info__item"><a>WordPress Plugin</a></li>
+                <li class="info__item"><a>All products and tools</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <header class="column__header">Tools & Resources</header>
+            <ul class="info">
+                <li class="info__item"><a>Online Chart Editor</a></li>
+                <li class="info__item"><a>Pixel Map Generator</a></li>
+                <li class="info__item"><a>Free SVG Maps</a></li>
+                <li class="info__item"><a>Visited Countries Map</a></li>
+                <li class="info__item"><a>Visited States Map</a></li>
+                <li class="info__item"><a>Weather Map</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <header class="column__header">Contact Us</header>
+            <ul class="info">
+                <li class="info__item"><a>contact@amcharts.com</a></li>
+                <li class="info__item"><a>Support Center</a></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

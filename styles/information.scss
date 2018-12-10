@@ -1,0 +1,31 @@
+.information {
+  justify-content: center;
+  background-color: $white-color;
+  flex-direction: row;
+  align-self: center;
+}
+
+.info__item {
+  color: $light-blue-color;
+  padding: 5px 0;
+}
+
+.column {
+  margin: 0 40px;
+
+  &__header {
+    margin-bottom: 20px;
+    font-weight: 100;
+  }
+}
+
+.search-input {
+  display: flex;
+  border-bottom: 2px solid rgba(98, 144, 162, 0.1);
+  border-radius: 10px;
+  padding: 0.2rem;
+  background-color: $dirty-white-color;
+  align-items: center;
+  margin-right: 15px;
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: Segoe;
+  src: url('./Segoeregular.ttf');
+}
+
+html, body {
+  height: 100%;
+  font-family: Segoe;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  color: $black-color;
+  font-size: 1rem;
+  max-width: 100px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn.btn--launch {
+  align-self: flex-start;
+  border: 1px solid $light-blue-color;
+  border-radius: 5px;
+  color: $light-blue-color;
+  padding: 10px 25px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
